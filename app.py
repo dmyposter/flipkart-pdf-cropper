@@ -14,7 +14,7 @@ def index():
     return '''
     <html>
     <head>
-    <title>Flipkart Label & Invoice Cropper | CreativKart</title>
+    <title>Crop Flipkart Label</title>
     <style>
         body { font-family: Arial; background: #f2f2f2; text-align: center; padding: 50px 20px; }
         form { background: white; display: inline-block; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -23,7 +23,7 @@ def index():
     </style>
     </head>
     <body>
-        <h2>Upload Flipkart PDF to Crop Label + Invoice</h2>
+        <h2>Crop Flipkart Label with Invoice</h2>
         <form method="post" action="/process" enctype="multipart/form-data">
             <input type="file" name="pdf" accept=".pdf"><br><br>
             <input type="submit" value="Upload and Process">
